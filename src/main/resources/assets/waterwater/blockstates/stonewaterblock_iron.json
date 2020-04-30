@@ -1,0 +1,37 @@
+{
+  "multipart": [
+    {"apply"  : {"model": "waterwater:block/stonewaterblock_iron"}},
+
+    { "when"  : {"north": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron"}},
+    { "when"  : {"east": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "y": 90}},
+
+    { "when"  : {"south": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "y": 180}},
+    { "when"  : {"west": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "y": 270}},
+
+    { "when"  : {"up": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "x": 270}},
+    { "when"  : {"down": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "x": 90, "y": 180}},
+
+
+
+    { "when"  : {"north": "true"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_transparent"}},
+    { "when"  : {"east": "true"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_transparent", "y": 90}},
+
+    { "when"  : {"south": "true"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_transparent", "y": 180}},
+    { "when"  : {"west": "true"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_transparent", "y": 270}},
+
+    { "when"  : {"up": "true"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_transparent", "x": 270}},
+    { "when"  : {"down": "true"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_transparent", "x": 90}}
+  ]
+}

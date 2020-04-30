@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y#",
+    "YXY",
+    "#Y#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:water_bucket"
+    },
+    "Y": {
+      "tag":"forge:glass"
+    }
+  },
+  "result": {
+    "item": "waterwater:boxforsource"
+  }
+}

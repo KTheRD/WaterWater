@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y#",
+    "Y Y",
+    "#Y#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:stone"
+    },
+    "Y": {
+      "tag":"forge:glass"
+    }
+  },
+  "result": {
+    "item": "waterwater:stonewaterblock"
+  }
+}

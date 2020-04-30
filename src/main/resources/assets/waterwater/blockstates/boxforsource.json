@@ -1,0 +1,20 @@
+{
+  "multipart": [
+    {"apply"  : {"model": "waterwater:block/boxforsource"}},
+
+    { "when"  : {"north": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug"}},
+    { "when"  : {"east": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug", "y": 90}},
+
+    { "when"  : {"south": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug", "y": 180}},
+    { "when"  : {"west": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug", "y": 270}},
+
+    { "when"  : {"up": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug", "x": 270}},
+    { "when"  : {"down": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug", "x": 90, "y": 180}}
+  ]
+}

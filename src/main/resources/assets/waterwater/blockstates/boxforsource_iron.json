@@ -1,0 +1,20 @@
+{
+  "multipart": [
+    {"apply"  : {"model": "waterwater:block/boxforsource_iron"}},
+
+    { "when"  : {"north": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron"}},
+    { "when"  : {"east": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "y": 90}},
+
+    { "when"  : {"south": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "y": 180}},
+    { "when"  : {"west": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "y": 270}},
+
+    { "when"  : {"up": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "x": 270}},
+    { "when"  : {"down": "false"},
+      "apply" : {"model": "waterwater:block/stonewaterblock_plug_iron", "x": 90, "y": 180}}
+  ]
+}
